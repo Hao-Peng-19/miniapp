@@ -1,0 +1,56 @@
+/* pages/list/list.wxss */
+
+/* 横向布局，view的使用*/
+.container1 view{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+.container1 view:nth-child(1){
+  background-color: aquamarine;
+}
+.container1 view:nth-child(2){
+  background-color: blueviolet;
+}
+.container1 view:nth-child(3){
+  background-color: crimson;
+}
+
+/*负责横向对齐*/
+.container1{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* 纵向布局，scroll-view的使用*/
+.container2 view{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+.container2 view:nth-child(1){
+  background-color: aquamarine;
+}
+.container2 view:nth-child(2){
+  background-color: blueviolet;
+}
+.container2 view:nth-child(3){
+  background-color: crimson;
+}
+
+/*为了能实现滚动需要加一个边界*/
+.container2{
+  border: 1px solid red;
+  width: 100px;
+  height: 50px;
+}
+
+/*分割线样式*/
+
+.home-header-line {
+  background-color: grey;
+  width: 100px;
+  height: 2rpx;  
+}

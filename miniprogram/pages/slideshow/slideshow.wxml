@@ -1,0 +1,27 @@
+<!--pages/slideshow/slideshow.wxml-->
+<swiper class="swiper-container" indicator-dots indicator-color="white" indicator-active-color="grey" interval="3000" autoplay circular>
+<!--
+indicator-dots 轮播图下方原点
+indicator-color 原点颜色
+indicator-active-color 当前页面原点颜色
+interval 自动切换时间
+autoplay 自动切换
+circular 循环轮播
+-->
+  <swiper-item>
+    <view class="item"> A </view>
+  </swiper-item>
+  <swiper-item>
+    <view class="item"> B </view>
+  </swiper-item>
+  <swiper-item>
+    <view class="item"> C </view>
+  </swiper-item>
+</swiper>
+
+<view>
+  手机号支持长按选中的功能
+  <text selectable>手机号；13755751529</text>
+  <rich-text nodes="<h1 style='color: red;'>Haopeng</h1>"></rich-text>
+  <!--如果需要长按选中功能则一定要用text，view不行，如果想要渲染特殊字体，则需要用rich-text-->
+</view>
