@@ -25,3 +25,20 @@ circular 循环轮播
   <rich-text nodes="<h1 style='color: red;'>Haopeng</h1>"></rich-text>
   <!--如果需要长按选中功能则一定要用text，view不行，如果想要渲染特殊字体，则需要用rich-text-->
 </view>
+
+<!-- 按钮的基本使用：通过type控制按钮颜色类型
+通过size控制尺寸按钮
+通过plain控制镂空按钮 -->
+<button>普通按钮</button>
+<button type="primary">主色调</button>
+<button type="warn">警告</button>
+
+<button size="mini">普通按钮</button>
+<button type="primary" size="mini">主色调</button>
+<button type="warn" size="mini">警告</button>
+
+<button size="mini" plain>普通按钮</button>
+<button type="primary" size="mini" plain>主色调</button>
+<button type="warn" size="mini" plain>警告</button>
+<image></image>
+<image src="/miniprogram/img/3.jpg"></image>

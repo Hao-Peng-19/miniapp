@@ -16,3 +16,7 @@ swiper-item:nth-child(2) .item{
 swiper-item:nth-child(3) .item{
   background-color: blue;
 }
+
+image{
+  border: 1px solid;
+}

@@ -5,6 +5,7 @@ const app = getApp<IAppOption>()
 Page({
   data: {
     motto: 'Hello World',
+    imgSrc: 'https://th.bing.com/th/id/OIP._oz8imsYl85m2_dPEGadzQHaLD?pid=ImgDet&rs=1',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
