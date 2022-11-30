@@ -1,0 +1,7 @@
+/* pages/EventTry/EventTry.wxss */
+input{
+  border:1px solid;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 3px;
+}

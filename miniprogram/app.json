@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/EventTry/EventTry",
     "pages/index/index",
     "pages/slideshow/slideshow",
     "pages/list/list",
