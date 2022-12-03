@@ -6,7 +6,7 @@ Page({
    */
   data: {
       count: 0,
-      msg: 'hello，'
+      msg: 'hello，this is my first try,'
   },
   //定义按钮事件处理函数
   btnTapHandler(event: any){
